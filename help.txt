@@ -1,0 +1,103 @@
+Search button
+  <button id="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+
+Download file
+    https://codepen.io/visheshtanwar/pen/dGOKLV
+
+    <textarea id="txt"></textarea>
+    <a href="" id="link" download="code.txt">Download </a>
+
+    window.onload = function() {
+	  var txt = document.getElementById('txt');
+      document.getElementById('link').onclick = function(code){
+        this.href = 'data:text/plain;charset=utf-11,' + encodeURIComponent(txt.value);
+      };
+    };
+
+
+Close button in div
+  https://youtu.be/90hKTru3nAs
+
+Checkbox
+  https://contactmentor.com/checkbox-list-react-js-example/
+
+
+Content.js
+
+import React from "react"
+import SearchBar from "./SubComponents/SearchBar"
+import Faculty from "./SubComponents/Faculty"
+import Domain from "./SubComponents/Domain"
+
+function Content() {
+  return (
+    <section class="content">
+      <div class="content-container">
+        <SearchBar/>
+        <Faculty/>
+        <Domain/>
+      </div>
+    </section>
+  )
+}
+
+export default Content
+
+
+
+
+Faculty.js
+
+import React, { useState } from "react"
+
+function Faculty() {
+  const [checked, setChecked] = useState([]);
+  const checkList = ["Kohli", "David", "Sharma", "Singh", "Chopra"];
+
+  const handleCheck = (event) => {
+    var updatedList = [...checked];
+
+    if(event.target.checked) {
+      updatedList = [...checked, event.target.value];
+    } 
+    else {
+      updatedList.splice(checked.indexOf(event.target.value), 1);
+    }
+    setChecked(updatedList);
+  };
+
+  const facultycheckedItems = checked.length 
+    ? checked.reduce((total, item) => {
+        return total + ", " + item;
+      })
+    : "";
+
+  const isChecked = (item) =>
+    checked.includes(item) ? "checked-item" : "not-checked-item";
+
+  return (
+    <div className="faculty">
+      <div className="faculty-checkList">
+        <div className="faculty-title">Faculty</div>
+        <div className="faculty-list-container">
+          {
+            checkList.map((item, index) => (
+              <div key={index}>
+                <input value={item} type="checkbox" onChange={handleCheck} />
+                <span className={isChecked(item)}>{item}</span>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+
+      <div>
+        {`Items checked are: ${facultycheckedItems}`}
+      </div>
+    </div>
+  );
+}
+
+export default Faculty
+export {check}

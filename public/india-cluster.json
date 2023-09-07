@@ -1,0 +1,118 @@
+[
+  {
+    "labels": [
+      "Indian"
+    ],
+    "count": 3,
+    "documents": [
+      {
+        "title": "Indian National Movement",
+        "content": "indian, thank, british, thank thank, badruddin, bengal, people, leader, social, partition, movement, gokhale, dadabhai, chandra, partition bengal, badruddin tyabji, tyabji, congress, national, indian national"
+      },
+      {
+        "title": "The Indian Desert",
+        "content": "desert, water, thar desert, thar, desert importance, region, here, importance, like, beautiful, rainfall, canal, sand, pushkar, bhagalpur sariska, great, teej, built, like teej, little"
+      },
+      {
+        "title": "The coastal plains and Islands",
+        "content": "coastal, plain, coast, coastal plain, island, eastern, western, eastern coastal, here, western coastal, konkan, konkan coast, india, gujarat, west, sea, bay, indian, port, plain western"
+      }
+    ]
+  },
+  {
+    "labels": [
+      "Bay"
+    ],
+    "count": 2,
+    "documents": [
+      {
+        "title": "India Climate and Wildlife",
+        "content": "forest, india, season, vegetation, wildlife, monsoon, type, weather, tree, bengal, climate, hot, natural, mangrove, cold, animal, sea, bay, region, rain"
+      },
+      {
+        "title": "The coastal plains and Islands",
+        "content": "coastal, plain, coast, coastal plain, island, eastern, western, eastern coastal, here, western coastal, konkan, konkan coast, india, gujarat, west, sea, bay, indian, port, plain western"
+      }
+    ]
+  },
+  {
+    "labels": [
+      "Bengal"
+    ],
+    "count": 2,
+    "documents": [
+      {
+        "title": "India Climate and Wildlife",
+        "content": "forest, india, season, vegetation, wildlife, monsoon, type, weather, tree, bengal, climate, hot, natural, mangrove, cold, animal, sea, bay, region, rain"
+      },
+      {
+        "title": "Indian National Movement",
+        "content": "indian, thank, british, thank thank, badruddin, bengal, people, leader, social, partition, movement, gokhale, dadabhai, chandra, partition bengal, badruddin tyabji, tyabji, congress, national, indian national"
+      }
+    ]
+  },
+  {
+    "labels": [
+      "Constitution"
+    ],
+    "count": 2,
+    "documents": [
+      {
+        "title": "Constitution of India",
+        "content": "constitution, state, amendment, india, parliament, assembly, government, structure, federal, list, union, act, elected, legislative, part, member, minister, constitution india, law, democracy"
+      },
+      {
+        "title": "Judiciary",
+        "content": "court, judiciary, judicial, laxman, state, review, india, high court, high, judicial review, law, supreme, supreme court, sudha, right, power, independent, fundamental, fundamental right, constitution"
+      }
+    ]
+  },
+  {
+    "labels": [
+      "Deposit"
+    ],
+    "count": 2,
+    "documents": [
+      {
+        "title": "Reserve Bank of India",
+        "content": "bank, rate, commercial bank, commercial, rbi, reserve, repo, repo rate, borrowing, money, cash, current, ratio, india, cash reserve, currency, reserve ratio, interest rate, interest, deposit"
+      },
+      {
+        "title": "Minerals and power resources",
+        "content": "mineral, iron, ferrous, copper, ore, non, iron ore, deposit, gold, manganese, contain, metallic, metal, lead, non ferrous, example, world, metallic mineral, pradesh, rock"
+      }
+    ]
+  },
+  {
+    "labels": [
+      "Power"
+    ],
+    "count": 2,
+    "documents": [
+      {
+        "title": "Judiciary",
+        "content": "court, judiciary, judicial, laxman, state, review, india, high court, high, judicial review, law, supreme, supreme court, sudha, right, power, independent, fundamental, fundamental right, constitution"
+      },
+      {
+        "title": "Minerals and power resources",
+        "content": "mineral, iron, ferrous, copper, ore, non, iron ore, deposit, gold, manganese, contain, metallic, metal, lead, non ferrous, example, world, metallic mineral, pradesh, rock"
+      }
+    ]
+  },
+  {
+    "labels": [
+      "Region"
+    ],
+    "count": 2,
+    "documents": [
+      {
+        "title": "India Climate and Wildlife",
+        "content": "forest, india, season, vegetation, wildlife, monsoon, type, weather, tree, bengal, climate, hot, natural, mangrove, cold, animal, sea, bay, region, rain"
+      },
+      {
+        "title": "The Indian Desert",
+        "content": "desert, water, thar desert, thar, desert importance, region, here, importance, like, beautiful, rainfall, canal, sand, pushkar, bhagalpur sariska, great, teej, built, like teej, little"
+      }
+    ]
+  }
+]

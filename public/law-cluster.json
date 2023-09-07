@@ -1,0 +1,46 @@
+[
+  {
+    "labels": [
+      "India"
+    ],
+    "value": 2,
+    "color": "#E38627",
+    "count": 4,
+    "documents": [
+      {
+        "title": "Judiciary",
+        "content": "court, judiciary, judicial, state, review, india, laxman, high, law, supreme, sudha, power, right, fundamental, independent, constitution, structure, term, kumar, citizen"
+      },
+      {
+        "title": "Constitution",
+        "content": "constitution, state, amendment, india, parliament, assembly, government, structure, list, federal, act, elected, legislative, union, minister, part, member, make, council, law"
+      },
+      {
+        "title": "Climate and wildlife",
+        "content": "forest, found, india, season, vegetation, monsoon, wildlife, tree, type, weather, bengal, climate, hot, many, natural, region, animal, bird, mangrove, day"
+      },
+      {
+        "title": "Mineral and Resources",
+        "content": "mineral, iron, copper, ferrous, ore, non, deposit, gold, manganese, metallic, contain, lead, world, example, metal, rock, india, pradesh, found, producer"
+      }
+    ]
+  },
+  {
+    "labels": [
+      "Constitution"
+    ],
+    "value": 2,
+    "color": "#C13C37",
+    "count": 2,
+    "documents": [
+      {
+        "title": "Judiciary",
+        "content": "court, judiciary, judicial, state, review, india, laxman, high, law, supreme, sudha, power, right, fundamental, independent, constitution, structure, term, kumar, citizen"
+      },
+      {
+        "title": "Constitution",
+        "content": "constitution, state, amendment, india, parliament, assembly, government, structure, list, federal, act, elected, legislative, union, minister, part, member, make, council, law"
+      }
+    ]
+  }
+]

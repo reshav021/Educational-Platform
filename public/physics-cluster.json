@@ -1,0 +1,18 @@
+[
+  {
+    "labels": [
+      "Field"
+    ],
+    "count": 2,
+    "documents": [
+      {
+        "title": "Induction Motor",
+        "content": "rotor, motor, speed, n, induction, winding, field, current, phase, inshot, synchronous, magnetic, slot, three, stator, aluminum, slip, short, ring, wound"
+      },
+      {
+        "title": "Dielectric",
+        "content": "e, field, p, dielectric, polarisation, electric, atom, polar, dipole, molecule, cavity, ionic, charge, nae, let, na, plate, applied, radius, type"
+      }
+    ]
+  }
+]
